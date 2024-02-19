@@ -1,0 +1,15 @@
+1- Configuração do Git Local:
+
+git config --global user.name RibahDev
+
+git config -global user.email joao.ribeiro17@outlook.com
+
+git clone "URL"
+
+2- Criando um Projeto MVC: 
+
+dotnet new mvc -o Pokedex
+
+
+3- Para executar um projeto: 
+dotnet watch run
