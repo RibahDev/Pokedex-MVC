@@ -1,2 +1,2 @@
 # Pokedex-MVC
-Pokedex utilizando .NET C# MVC
+Pokedex utilizando .NET MVC
