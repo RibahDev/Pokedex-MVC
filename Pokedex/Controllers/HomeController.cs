@@ -15,7 +15,16 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        ViewData["Mensagem"] = "Pokedex";
+        Pokemon pikachu = new() 
+        {
+            Numero = 25,
+            Nome = "Pikachu",
+            Especie = "Rato",
+            Descricao = "Pokemon elétrico",
+            Tipo = ["Eletrico"]
+        };
+        return View(pikachu);
     }
 
     public IActionResult Privacy()
