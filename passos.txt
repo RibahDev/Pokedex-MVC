@@ -13,3 +13,9 @@ dotnet new mvc -o Pokedex
 
 3- Para executar um projeto: 
 dotnet watch run
+
+4- Caso seja necessário restaurar o projeto:
+dotnet restore
+
+5- Para limpar dependencias e bibliotecas
+dotnet clear
