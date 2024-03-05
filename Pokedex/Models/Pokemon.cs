@@ -18,10 +18,4 @@ namespace Pokedex.Models;
         public double Peso { get; set; }
 
         public string Imagem { get; set; }
-
-        // Nétodo Construtor
-        public Pokemon()
-        {
-            Tipo = new List<string>();
-        }
     }
