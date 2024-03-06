@@ -4,7 +4,7 @@
 // Write your JavaScript code.
 
 function filter(type) {
-    let card, i;
+    let cards, i;
     let count = 0;
     cards = document.getElementsByClassName("card");
     buttons = document.getElementsByClassName("btn-filter");
@@ -30,7 +30,7 @@ function filter(type) {
         document.getElementById("btn-all").classList.add("btn-md");
     };
     if (count == 0)
-        document.getElementById("btn-all").classList.remove("btn-sm");
+        document.getElementById("zeroPokemon").classList.remove("d-none");
     else
         document.getElementById("zeroPokemon").classList.add("d-none");
 }
