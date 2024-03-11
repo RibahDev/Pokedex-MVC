@@ -45,7 +45,7 @@ public class HomeController : Controller
 
      private List<Tipo> GetTipos()
     {
-        using (StreamReader leitor = new("Data\\pokemons.json"))
+        using (StreamReader leitor = new("Data\\tipos.json"))
         {
             string dados = leitor.ReadToEnd();
             return JsonSerializer.Deserialize<List<Tipo>>(dados);

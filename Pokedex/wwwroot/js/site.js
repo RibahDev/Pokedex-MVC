@@ -9,9 +9,9 @@ function filter(type) {
     cards = document.getElementsByClassName("card");
     buttons = document.getElementsByClassName("btn-filter");
     for (i = 0; i < cards.length; i++) {
-        cards[i].aparentElement.style.display = 'none';
+        cards[i].parentElement.style.display = 'none';
         if (cards[i].classList.contains(type) || type === "all") {
-            cards[i].aparentElement.style.display = 'block';
+            cards[i].parentElement.style.display = 'block';
             count += 1;
         };
     };
